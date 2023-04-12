@@ -1,0 +1,42 @@
+#hero img{
+    height: 80vh;
+}
+
+.col-md-4 img{
+    height: 30vh;
+    width: 23rem;
+    box-shadow: 1rem 1rem 0.9rem;
+}
+
+.container-fluid h1{
+    font-weight: 700;
+}
+
+#footer{
+    background-image: url('./chairs-g5a450b1ab_1920.jpg');
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.footer h1{
+     font-weight: 700;
+}
+
+.footer p{
+    font-weight: 700;
+}
+
+@media screen and (max-width:768px) {
+    .middle a{
+        display: none;
+    }
+    .right .btn{
+        display: none;
+    }
+    #carouselExampleControls{
+        display: none;
+    }
+}
+
